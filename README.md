@@ -118,6 +118,7 @@ Each service should return a response confirming it is running.
 (Add screenshot of `docker-compose ps` here)
 
 ### Browser Output
+![OrderService](screenshots/OrderService.png)
 
 (Add screenshots of each service running in browser)
 

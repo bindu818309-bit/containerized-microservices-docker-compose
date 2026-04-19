@@ -6,9 +6,10 @@ This project demonstrates the containerization of a **Node.js-based microservice
 
 The application consists of three core services:
 
-* **User Service** (Port 3000)
-* **Product Service** (Port 3001)
-* **Gateway Service** (Port 3003)
+* **Gateway Service** (Port 3000)
+* **User Service** (Port 3001)
+* **Product Service** (Port 3002)
+* **Order Service** (Port 3003)
 
 Each service is containerized independently and orchestrated using Docker Compose.
 
@@ -85,9 +86,11 @@ docker-compose up --build -d
 
 | Service         | URL                   |
 | --------------- | --------------------- |
-| User Service    | http://localhost:3000 |
-| Product Service | http://localhost:3001 |
-| Gateway Service | http://localhost:3003 |
+| Gateway Service | http://localhost:3000 |
+| User Service    | http://localhost:3001 |
+| Product Service | http://localhost:3002 |
+| Order Service   | http://localhost:3003 |
+
 
 ---
 
@@ -103,9 +106,10 @@ docker-compose ps
 
 Open the following in your browser:
 
-* http://localhost:3000 → User Service
-* http://localhost:3001 → Product Service
-* http://localhost:3003 → Gateway Service
+* http://localhost:3000 → Gateway Service
+* http://localhost:3001 → User Service
+* http://localhost:3002 → Product Service
+* http://localhost:3003 → Order Service
 
 Each service should return a response confirming it is running.
 

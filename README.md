@@ -114,15 +114,21 @@ Each service should return a response confirming it is running.
 ## 📸 Screenshots
 
 ### Running Containers
+![DockerCompose](screenshots/CMd.png)
 
-(Add screenshot of `docker-compose ps` here)
-
-### Browser Output
+## OrderService
 ![OrderService](screenshots/OrderService.png)
 
-(Add screenshots of each service running in browser)
+## OrderService
+![ProductService](screenshots/ProductService.png)
 
----
+## OrderService
+![Userservice](screenshots/Userservice.png)
+
+## OrderService
+![gatewayservice](screenshots/gatewayservice.png)
+
+
 
 ## 🛑 Stop the Application
 

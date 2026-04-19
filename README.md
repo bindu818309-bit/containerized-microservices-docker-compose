@@ -119,13 +119,13 @@ Each service should return a response confirming it is running.
 ## OrderService
 ![OrderService](screenshots/OrderService.png)
 
-## OrderService
+## ProductService
 ![ProductService](screenshots/ProductService.png)
 
-## OrderService
+## UserService
 ![Userservice](screenshots/Userservice.png)
 
-## OrderService
+## gatewayService
 ![gatewayservice](screenshots/gatewayservice.png)
 
 
